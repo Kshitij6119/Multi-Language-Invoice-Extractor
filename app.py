@@ -5,7 +5,7 @@ load_dotenv()
 import os
 import streamlit as st
 from PIL import Image
-from google import genai
+import google.generativeai as genai
 
 # Load and configure Gemini API client
 client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
