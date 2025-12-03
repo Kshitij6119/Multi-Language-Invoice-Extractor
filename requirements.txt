@@ -1,7 +1,26 @@
+# Core
 streamlit
-google-generativeai
-python-dotenv
-langchain
+
+# Data & finance
+yfinance
+pandas
+numpy
+plotly
+
+# ML
+scikit-learn
+
+# Image / PDF / env
+Pillow
 PyPDF2
+python-dotenv
+
+# LangChain / vector DB
+langchain
 chromadb
+
+# Faiss (may fail on some hosts) — see note below
 faiss-cpu
+
+# Google Gemini SDK
+google-generativeai
